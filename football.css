@@ -1,0 +1,67 @@
+body,ul,li,p{
+
+	margin:0;
+	padding:0;
+}
+.nav,.logo{
+	float:left;
+}
+.nav{
+	margin-left:500px;
+
+}
+.nav ul li a:hover{
+	color:#00cc00;
+}
+.nav ul{
+	margin-top:50px;
+}
+.nav ul li a{
+  
+	font-size:50px;
+	padding-left:50px;
+	text-decoration: none;
+	font-family:华文琥珀;
+	}
+
+ul li{
+	list-style-type:none;
+	display:inline;
+	
+
+  	}
+.wrap{
+	width:1920px;
+    
+}
+.top{
+
+	width:1920px;
+	height:140px;
+	background-color:#33ffff;
+
+}
+.logo img{
+margin-left:300px;
+margin-top:20px;
+
+
+}
+.banner{
+
+	width:1920px;
+	background:url(imags/footback.jpg) no-repeat 0 0;
+	height:650px;
+}
+.footer{
+	height:130px;
+	width:1920px;
+background-image:url(imags/green.jpg);
+background-repeat: no-repeat;
+}
+.footer .copyright{
+ 		text-align:center;
+		padding-top:40px;
+ 	 font-size:20px;
+ 	 font-weight:400;
+}

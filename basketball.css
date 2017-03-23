@@ -1,0 +1,169 @@
+body,ul,li,p
+{
+	margin:0px;
+	padding:0px;
+}
+.wrap
+{
+	width:1920px;
+
+}
+.header
+{
+	height:140px;
+	background-color:#33cccc;
+}
+.NBAlogo
+{
+	width:276px;
+	height:136px;
+	margin-left:300px;
+	background:url(imags/nba.jpg) no-repeat 0 0;
+}
+
+ul .home,.team,.agenda,.player{
+	list-style-type:none;
+	display:inline;
+}
+
+a{
+	text-decoration: none;
+}
+ul .home a{
+		position:relative;
+		top:-80px;
+ 		left:1000px;
+		font-size:40px;
+		font-family:华文楷体;
+		color:blue;
+		text-decoration:none;
+
+}
+.footer .copyright{
+ 	text-align:center;
+	padding-top:30px;
+
+}
+ul .player a{
+		position:relative;
+		top:-80px;
+ 		left:1100px;
+		font-size:40px;
+		font-family:华文楷体;
+		color:blue;
+		text-decoration:none;
+}ul .agenda a{
+		position:relative;
+		top:-80px;
+ 		left:1200px;
+		font-size:40px;
+		font-family:华文楷体;
+		color:blue;
+		text-decoration:none;
+}ul .team a{
+		position:relative;
+		top:-80px;
+ 		left:1300px;
+		font-size:40px;
+		font-family:华文楷体;
+		color:blue;
+		text-decoration:none;
+}
+ul .login a
+{
+		position:absolute;
+		top:10px;
+		right:40px;
+
+
+}
+ul .home a:hover,ul .team a:hover,
+ul .agenda a:hover,ul .player a:hover{
+		color:#ff0000;
+}
+img{
+		float:left;
+
+}
+span{
+	display:inline-block;
+	text-align:center;
+	text-indent:30px;
+	font-weight:800;
+}
+.right_top{
+	width:520px;
+	margin:0;
+	font-size:65px;
+ 	font-family: 华文楷体;
+	text-align: center;
+	float:left;
+	background-color:#ccff00;
+}
+.curry{
+	width:520px;
+	height:200px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	float: left;
+
+}
+.JMS{
+	width:520px;
+	height:200px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	float: left;
+
+}
+.Jdan{
+	width:520px;
+	height:205px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	float: left;
+}
+
+.content{
+	width:1920px;
+	height:690px;
+
+	
+}
+.ywtop{
+	width:400px;
+	height:100px;
+	background-color:#009999;
+}
+h1{
+	margin:0px;
+	padding-top:10px;
+	font-size:65px;
+	text-align:center;
+	font-weight:500;
+ 	font-family:华文楷体;
+}
+.yw{
+	width:400px;
+	height:690px;
+	background-color:#ffffff;
+	float:left;
+	
+}
+.yw ul{
+	position:relative;
+	top:40px;
+	left:50px;
+	line-height: 50px;
+}
+.imags{
+	width:1000px;
+	height:690px;
+	float:left;
+
+}
+.footer{	
+	width:1920px;
+	height:100px;
+	background-color:#ccc;
+}
